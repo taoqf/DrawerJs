@@ -1,4 +1,4 @@
-/*! drawerjs - 1.11.0
+/*! @taoqf/drawerjs - 1.11.0
  */
 
 /*! Fabric.js Copyright 2008-2015, Printio (Juriy Zaytsev, Maxim Chernyak) */
@@ -37357,7 +37357,7 @@ ToolOptionsToolbar.prototype.customScrollMode = true;
           };
         }
 
-        if (options.crossOrigin) {
+        if (options && options.crossOrigin) {
           image.crossOrigin = options.crossOrigin;
         }
         // this will start creating image

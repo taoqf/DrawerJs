@@ -249,7 +249,7 @@
           };
         }
 
-        if (options.crossOrigin) {
+        if (options && options.crossOrigin) {
           image.crossOrigin = options.crossOrigin;
         }
         // this will start creating image
